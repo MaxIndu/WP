@@ -1,0 +1,11 @@
+bin
+build
+out
+.gradle
+.sonar
+.settings
+.classpath
+.project
+coverage
+vcs.xml
+.idea/
