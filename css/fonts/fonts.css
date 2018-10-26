@@ -2,9 +2,51 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Cantarell:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 body{
-    font-family: 'Nunito', sans-serif;
+    /*font-family: 'Nunito', sans-serif;
     font-family: 'PT Sans', sans-serif;
     font-family: 'Crimson Text', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;*/
+    font-family: 'Cantarell', sans-serif;
+}
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: 'Cantarell', sans-serif;
+    text-shadow:0 0 1px transparent !important;
+    text-rendering: optimizeLegibility;
+    line-height:24px;
+    color: #373D3F;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-smoothing: grayscale;
+}
+
+html.touch * {
+    text-rendering: optimizeSpeed;
+}
+
+p{
+    font-size: 18px;
+}
+
+
+.splash-head {
+    font-family:'Nunito Sans', sans-serif;
+    color: white;
+    padding: .4em 1em .1em;
+    /*font-weight: 100;*/
+    font-weight: 900;
+    line-height: 1em;
+    margin-bottom: .5em;
+}
+
+.pure-menu-heading{
+    text-transform: capitalize;
 }
